@@ -8,6 +8,11 @@
 - User and Admin can login at the same time.
 - After login as User, User can't go to the Admin's home(if not logged in as admin) and same for the Admin too.
 - You can add as many role as you want.
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- User and Admin login/logout from different endpoint.
+
+## How to add more role?
+
+- add new guard in /config/auth.php
+- add model, DB table and migrate DB
+- add controller and Auth controller(follow other files)
+- add view and routes
