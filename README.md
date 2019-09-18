@@ -12,7 +12,7 @@
 
 ## How to add more role?
 
-- add new guard in /config/auth.php
+- add new guard in `/config/auth.php`
 - add model, DB table and migrate DB
-- add controller and Auth controller(follow other files)
+- add controller and Auth controller(follow other files in `app/Http/Controllers`)
 - add view and routes
